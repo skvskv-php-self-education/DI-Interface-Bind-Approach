@@ -1,0 +1,33 @@
+{
+  "name": "kshpolvind/DI-prototyping-02",
+  "description": "DI prototyping, v.0.2",
+  "authors": [
+        {
+            "name": "Konstantin Shpolvind",
+            "email": "skv@eml.ru"
+        }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+      "psr-0": {
+          "lib\\": "",
+          "app\\": ""
+      }
+  },
+
+  "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/skvskv/PHP-DependencyInjectionContainer.git"
+      }
+  ],
+
+  "require-dev": {
+      "phpunit/phpunit": "4.6.*"
+  },
+
+  "require": {
+      "php": ">=5.5",
+      "skvskv/PHP-DependencyInjectionContainer": "*"
+  }
+}
